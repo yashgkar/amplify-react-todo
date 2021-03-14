@@ -1,6 +1,6 @@
 {
   "api": {
-    "todoapp": {
+    "amplifiedfrontend": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -18,11 +18,18 @@
     }
   },
   "auth": {
-    "todoapp64f45b53": {
+    "amplifiedfrontend928773b3": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual"
     }
   }
 }

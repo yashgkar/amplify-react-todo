@@ -1,5 +1,5 @@
 {
-  "AppSyncApiName": "todoapp",
+  "AppSyncApiName": "amplifiedfrontend",
   "DynamoDBBillingMode": "PAY_PER_REQUEST",
   "DynamoDBEnableServerSideEncryption": false
 }

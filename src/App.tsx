@@ -3,9 +3,9 @@ import Amplify, { API, graphqlOperation } from 'aws-amplify'
 import { withAuthenticator } from '@aws-amplify/ui-react'
 import { v4 as uuid } from 'uuid'
 import './App.css'
-import awsExports from './gql/aws-exports'
-import { listTodos } from './gql/graphql/queries'
-import { createTodo, deleteTodo } from './gql/graphql/mutations'
+import awsExports from './aws-exports'
+import { listTodos } from './graphql/queries'
+import { createTodo, deleteTodo } from './graphql/mutations'
 
 Amplify.configure(awsExports)
 
@@ -112,3 +112,4 @@ const App = () => {
 }
 
 export default withAuthenticator(App)
+;
